@@ -1,2 +1,3 @@
 \\chisfilp8\chiusers$\conlecc\visual studio 2017\Projects\RabbitMQ\Tutorials\cloudampq\cloudampq\obj\Debug\cloudampq.njsprojResolveAssemblyReference.cache
 \\chisfilp8\chiusers$\conlecc\visual studio 2017\Projects\RabbitMQ\Tutorials\cloudampq\cloudampq\bin\Microsoft.NodejsTools.WebRole.dll
+C:\development\RabbitMQ\Tutorials\cloudampq\cloudampq\obj\Debug\cloudampq.njsprojResolveAssemblyReference.cache

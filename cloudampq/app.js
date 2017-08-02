@@ -16,11 +16,12 @@ exports.setup = setup;
 function start() {
     // TODO: Should come from the configuration store(s)
     //  "amqp://<user>:<password>@<server>:<port>/<vhost>"
-    var defaultUri = "amqp://lonhnfkm:o0Mu1q8DmTd98uPgAPHRDO4Wp6mZBgYK@orangutan.rmq.cloudamqp.com/lonhnfkm";
-    var url = process.env.CLOUDAMQP_URL || defaultUri;
+    //const defaultUri = "amqp://lonhnfkm:o0Mu1q8DmTd98uPgAPHRDO4Wp6mZBgYK@orangutan.rmq.cloudamqp.com/lonhnfkm";
+    var defaultUri = "amqp://lonhnfkm:o0Mu1q8DmTd98uPgAPHRDO4Wp6mZBgYK@orangutan.rmq.cloudamqp.com:1883/lonhnfkm";
     var heartBit = 60;
     var reconnectTime = 1000;
-    amqp.connect(url + "?heartbeat=" + heartBit, function (err, conn) {
+    var instanceUrl = (process.env.CLOUDAMQP_URL || defaultUri) + "?heartbeat=" + heartBit;
+    amqp.connect(instanceUrl, function (err, conn) {
         if (err) {
             console.error(instanceName, err.message);
             return setTimeout(start, reconnectTime);
