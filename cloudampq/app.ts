@@ -4,6 +4,8 @@ const instanceName = "[AMQP]";
 const cloudUrl = "https://api.cloudamqp.com/console/1b33c5be-014a-4d82-8f8b-80e3690c0768/details";
 const rabbitMQUrl = "https://orangutan.rmq.cloudamqp.com/#/";
 
+const tutorialUrl = "https://www.cloudamqp.com/blog/2015-05-19-part2-2-rabbitmq-for-beginners_example-and-sample-code-node-js.html";
+
 let connection: amqp.Connection;
 
 
