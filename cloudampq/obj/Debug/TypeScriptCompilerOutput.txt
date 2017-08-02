@@ -1,0 +1,2 @@
+\\chisfilp8\chiusers$\conlecc\visual studio 2017\Projects\RabbitMQ\Tutorials\cloudampq\cloudampq\app.js
+\\chisfilp8\chiusers$\conlecc\visual studio 2017\Projects\RabbitMQ\Tutorials\cloudampq\cloudampq\app.js.map
